@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'body.dart';
 void main() {
   runApp(Recess());
   
@@ -12,7 +13,7 @@ class Recess extends StatelessWidget{
       home: 
       Scaffold(
         appBar: AppBar(title: Text("MARVEL"),backgroundColor:Colors.red,),
-      body:Center(child: Text("Thor ragnarok",style:TextStyle(fontSize: 50,fontWeight: FontWeight.bold) )),
+      body: Body(),
       
     ));
   }
